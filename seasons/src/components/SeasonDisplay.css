@@ -1,0 +1,31 @@
+.season-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.winter {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.summer {
+  background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+}
+.icon-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.winter i {
+  color: white;
+}
+
+.summer i {
+  color: orangered;
+}
+
+.icon-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
